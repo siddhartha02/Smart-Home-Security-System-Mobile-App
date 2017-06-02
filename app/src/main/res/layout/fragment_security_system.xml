@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    tools:context="edu.sprakas1uncc.iotproject.SecuritySystemFragment"
+    android:layout_gravity="center_horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogroup"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/disarmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disarmed"
+        />
+    <RadioButton android:id="@+id/armedstay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Armed Stay"
+        />
+
+    <RadioButton android:id="@+id/armedaway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Armed Away"
+        />
+</RadioGroup>
+
+
+
+</FrameLayout>

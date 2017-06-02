@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    tools:context="edu.sprakas1uncc.iotproject.Door_windowSensors">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="upstairs" />
+    <ToggleButton
+        android:id="@+id/dwsensorup"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_above="@+id/dwsensorup"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginLeft="150dp"
+        android:text="ToggleButton"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:text="Main Floor" />
+    <ToggleButton
+        android:id="@+id/dwsensormain"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_above="@+id/dwsensormain"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+
+        android:text="ToggleButton"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

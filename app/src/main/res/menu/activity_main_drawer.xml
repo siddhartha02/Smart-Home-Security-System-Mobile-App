@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+
+
+    <item android:title="FEATURES">
+        <menu>
+            <item
+                android:id="@+id/security_system"
+                android:icon="@drawable/lock_solid"
+                android:title="Security System" />
+
+            <item
+                android:id="@+id/locks"
+                android:icon="@drawable/key"
+                android:title="Locks" />
+            <item
+                android:id="@+id/garage_doors"
+                android:icon="@drawable/garage"
+                android:title="Garage Doors" />
+
+            <item
+                android:id="@+id/lights"
+                android:icon="@drawable/lights"
+                android:title="Lights" />
+            <item
+                android:id="@+id/thermostats"
+                android:icon="@drawable/thermostat"
+                android:title="Thermostats" />
+
+            <item
+                android:id="@+id/energy"
+                
+                android:icon="@drawable/energy"
+                android:title="Energy" />
+            <item
+                android:id = "@+id/doorwindowsensor"
+                android:icon="@drawable/door"
+                android:title="Door-Window Sensors"/>
+            <item
+                android:id = "@+id/motionsensor"
+                android:icon="@drawable/motion_sensor"
+                android:title="Motion Sensor"/>
+            <item
+                android:id = "@+id/video"
+                android:icon="@drawable/video_icon"
+                android:title="Video"/>
+            <item
+                android:id="@+id/geo_services"
+                android:icon="@drawable/weather"
+                android:title="Geo-Services" />
+        </menu>
+    </item>
+</menu>

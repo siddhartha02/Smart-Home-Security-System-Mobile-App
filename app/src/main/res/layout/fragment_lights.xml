@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_height="match_parent"
+    tools:context="edu.sprakas1uncc.iotproject.Lights">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Switch
+        android:id="@+id/allSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="All" />
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+
+        android:layout_height="10dp"
+        android:id="@+id/seekbarall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="70dp"
+        android:indeterminate="false"
+        android:max="100" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/tall1"/>
+
+    <Switch
+        android:id="@+id/mainSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="Mian Floor" />
+    <SeekBar
+        android:layout_width="match_parent"
+
+        android:layout_height="10dp"
+        android:id="@+id/seekbarmain"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="150dp"
+        android:indeterminate="false"
+        android:max="100" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="170dp"
+        android:id="@+id/tall2"/>
+    <Switch
+        android:id="@+id/upstairSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:text="Upstairs" />
+    <SeekBar
+        android:layout_width="match_parent"
+
+        android:layout_height="10dp"
+        android:id="@+id/seekbarupstair"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="220dp"
+        android:indeterminate="false"
+        android:max="100" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="240dp"
+        android:id="@+id/tall3"/>
+
+</FrameLayout>

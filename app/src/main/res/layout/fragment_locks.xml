@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context="edu.sprakas1uncc.iotproject.Locks">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Garage Door" />
+    <ToggleButton
+        android:id="@+id/garagelockbutton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_above="@+id/buttonStrobeLight"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:text="ToggleButton"
+        android:textOn="Locked"
+        android:textOff="Unlocked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Back Door" />
+    <ToggleButton
+        android:id="@+id/backdoorbutton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_above="@+id/buttonStrobeLight"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
+
+        android:text="ToggleButton"
+        android:textOn="Locked"
+        android:textOff="Unlocked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Front Door" />
+    <ToggleButton
+        android:id="@+id/frontButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_above="@+id/buttonStrobeLight"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+
+        android:text="ToggleButton"
+        android:textOn="Locked"
+        android:textOff="Unlocked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</FrameLayout>

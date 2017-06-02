@@ -1,0 +1,194 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    tools:context="edu.sprakas1uncc.iotproject.Thermostats">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Upstairs"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView9" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogroupthermmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/heat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heat"
+            />
+        <RadioButton android:id="@+id/cool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cool"
+            />
+
+        <RadioButton android:id="@+id/off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Fan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/fan1" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogroupthermfan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+    <RadioButton android:id="@+id/auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto"
+        />
+    <RadioButton android:id="@+id/fanoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Current temp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/currenttemp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/currenttempval" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+
+        android:layout_height="10dp"
+        android:id="@+id/seekbarcurrenttemp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="140dp"
+        android:indeterminate="false"
+        android:max="100" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:id="@+id/controltemp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Main Floor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/textView10" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogroupthermmodemain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/heatmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heat"
+            />
+        <RadioButton android:id="@+id/coolmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cool"
+            />
+
+        <RadioButton android:id="@+id/offmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Fan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"
+        android:id="@+id/fan2" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radiogroupthermfanmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/automain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto"
+            />
+        <RadioButton android:id="@+id/fanoffmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Current temp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="290dp"
+        android:id="@+id/currenttempmain" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        android:id="@+id/currenttempvalmain" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+
+        android:layout_height="10dp"
+        android:id="@+id/seekbarcurrenttempmain"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="330dp"
+        android:indeterminate="false"
+        android:max="100" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        android:id="@+id/controltempmain" />
+
+</FrameLayout>

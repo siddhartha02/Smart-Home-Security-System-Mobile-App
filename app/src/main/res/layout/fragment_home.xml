@@ -1,0 +1,96 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_frag"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="edu.sprakas1uncc.iotproject.HomeFragment">
+
+    <!-- A CardView that contains a TextView -->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/garagecard"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        card_view:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/garagetext"
+            android:text="Garage"
+            android:textSize="25dp"
+            android:textColor="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusgarage"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+             />
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/secsyscard"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/secsystext"
+            android:text="Security System"
+            android:textSize="25dp"
+            android:textColor="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/statussecsys"
+            android:layout_marginTop="50dp"
+             />
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/lockscard"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        card_view:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/lockstext"
+            android:text="Locks"
+            android:textSize="25dp"
+            android:textColor="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:id="@+id/statuslocked"
+            android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+         />
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</FrameLayout>
